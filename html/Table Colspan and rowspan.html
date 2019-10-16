@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table, td, td {
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- colspam and rowspan -->
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Gender</td>
+            <td>Class</td>
+            <td>Comment</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Dara</td>
+            <td>M</td>
+            <td>KPS</td>
+            <td rowspan="3">Good</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Dara</td>
+            <td>M</td>
+            <td>KPS</td>
+            <!-- <td>Good</td> -->
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Dara</td>
+            <td>M</td>
+            <td>KPS</td>
+            <!-- <td>Good</td> -->
+        </tr>
+        <tr>
+            <td colspan="4">001</td>
+            <!-- <td>Dara</td> -->
+            <!-- <td>M</td> -->
+            <!-- <td>KPS</td> -->
+            <td>Good</td>
+        </tr>
+    </table>
+</body>
+</html>

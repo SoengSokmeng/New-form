@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soeng Sokmeng Registration Form</title>
+    <style>
+        .container {
+            margin: auto;  
+            padding: auto;
+            }
+        .image {
+                float: right;
+                }
+        .image img {
+                display: inline-block;
+                width: 200px;
+                height: 220px;
+                }
+        .text {
+                margin-left: auto;
+                }
+        .content{
+            width: auto;
+            height: auto;
+        }
+    /* table,
+        th,
+        td {
+            border: 1px solid crimson;
+            border-collapse: collapse;
+        } */
+    </style>
+</head>
+<body>
+        <div class="container">    
+                <div class="head" >
+                    <h2 align="center">REGISTRATION FORM</h2>
+                    <h4 align="center">Korea Software HRD Center Registration Form</h4>
+                </div>            
+                <div class="image"><img src="./../../image/Girlhead.jpg" alt="Photo" /></div>
+                <div class="text">
+                    <p>March 17th, 2017</p>
+                    <p>Korea Software HRD Center</p>
+                    <p>#12, St 323, Sangkat Boeung Kak II, Khan Toul Kork, Phnom Penh</p>
+                    <p>Tel: (+855) 23 991 314, Fax: (+855) 23 991 315</p>
+                    <p>Email: info.kshrd@gmail.com</p>
+                    <p>facebook.com/ksignhrd</p>
+               </div>
+        </div><br>
+        <div class="content">
+            <form>
+                <fieldset>
+                    <legend align="center">
+                        Personal Information
+                    </legend>
+                    <table>
+                        <tr>
+                            <td align="right">Khmer ID Number:</td>
+                            <td><input type="text" placeholder="Input Khmer ID Number" size="75"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Fullname:</td>
+                            <td><input type="text" placeholder="Firstname" size="75"></td>
+                            <td><input type="text" placeholder="Lastname" size="80"></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Gender:</td>
+                            <td>
+                                <select>
+                                    <option>Female</option>
+                                    <option>Male</option>
+                                </select>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Date of Birth:</td>
+                            <td><input type="date" name="" id=""></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Place of Birth:</td>
+                            <td colspan="2"><input type="text" placeholder="Place of Birth" size="160"></textarea></td>
+                            <!-- <td></!-->
+                        </tr>
+                        <tr>
+                            <td align="right">Permanent address:</td>
+                            <td colspan="2"><textarea cols="162" rows="2"></textarea></td>
+                            <!-- <td><textarea cols="80" rows="3"></textarea></td> -->
+                        </tr>
+                    </table>
+
+                </fieldset>
+            </form>
+            <form>
+                    <fieldset>
+                        <legend align="center">
+                            Contact
+                        </legend>
+                        <table>
+                            <tr>
+                                <td align="right">Contact:</td>
+                                <td><input type="text" placeholder="Phone Number" size="70"></td>
+                                <td>Emergency Contact:</td>
+                                <td><input type="text" placeholder="Emergency Contact" size="76"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Email</td>
+                                <td colspan="3"><input type="Email" placeholder="Email" size="171"></td>
+                                <!-- <td></td> -->
+                                <!-- <td></!-->
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+                <form>
+                        <fieldset>
+                            <legend align="center">
+                                Family Background
+                            </legend>
+                            <table>
+                                <tr>
+                                    <td align="right">Father Name:</td>
+                                    <td><input type="text" placeholder="Father Name" size="73"></td>
+                                    <td>Occupation:</td>
+                                    <td><input type="text" placeholder="Occupation" size="75"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right">Address:</td>
+                                    <td colspan="3"><textarea cols="167" rows="2"></textarea></td>
+                                    <!-- <td></td> -->
+                                    <!-- <td></td> -->
+                                </tr>
+                                <tr>
+                                    <td align="right">Mother Name:</td>
+                                    <td><input type="text" placeholder="Mother Name" size="73"></td>
+                                    <td>Occupation:</td>
+                                    <td><input type="text" placeholder="Occupation" size="75"></td>
+                                </tr>
+                                <tr>
+                                    <td align="right">Address:</td>
+                                    <td colspan="3"><textarea cols="167" rows="2"></textarea></td>
+                                    <!-- <td></td> -->
+                                    <!-- <td></!-->
+                                </tr>
+                            </table>
+                            </table>
+                        </fieldset>
+                    </form>
+                    <form>
+                        <fieldset>
+                            <legend align="center">
+                                Type of course
+                            </legend>
+                            <center>
+                            <input type="radio" name="subject"> Starting Date:
+                            <input type="radio" name="subject"> ITE Course 2018
+                            <input type="radio" name="subject"> Short Course 2018
+                            </center>
+                        </fieldset>
+                        <center>
+                        <input type="submit">
+                        <input type="reset" name="reset">
+                        </center>
+                    </form>
+        </div>
+</body>
+</html>
